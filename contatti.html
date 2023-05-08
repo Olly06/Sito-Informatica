@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog di Orlando</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>
+        body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			margin-top: 50px;
+		}
+
+		#contenitori {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		.contact {
+			width: 200px;
+			height: 200px;
+			margin: 20px;
+			background-color: var(--);
+			border-radius: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.contact:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+		}
+
+		.contact a {
+			display: block;
+			margin-top: 10px;
+			font-weight: bold;
+			color: #333;
+			text-decoration: none;
+		}
+
+		.contact img {
+			width: 70px;
+			height: 70px;
+			object-fit: contain;
+			object-position: center;
+			border-radius: 50%;
+		}
+        </style>
+    </head>
+
+    <body class="light-theme">
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="btn-group">
+                        <button class="theme-btn theme-btn-mobile light">
+                            <ion-icon name="moon" class="moon"></ion-icon>
+                            <ion-icon name="sunny" class="sun"></ion-icon>
+                        </button>
+                        <button class="nav-menu-btn">
+                            <ion-icon name="menu-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="flex-wrapper">
+                        <ul class="desktop-nav">
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="aboutMe.html" class="nav-link">About Me</a>
+                            </li>
+                            <li>
+                                <a href="contatti.html" class="nav-link">Contattami</a>
+                            </li>
+                        </ul>
+                        <button class="theme-btn theme-btn-desktop light">
+                            <ion-icon name="moon" class="moon"></ion-icon>
+                            <ion-icon name="sunny" class="sun"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="mobile-nav">
+                        <button class="nav-close-btn">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        <div class="wrapper">
+                            <p class="h3 nav-title">Main Menu</p>
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="aboutMe.html" class="nav-link">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contatti.html" class="nav-link">Contattami</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="wrapper">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="computer.html" class="nav-link">Elettronica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="videogiochi.html" class="nav-link">Videogiochi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="main">
+                <div class="container">
+                    <h1 class="h1">I miei contatti</h1><br>
+                    <p id="text1">Puoi trovarmi su tutte le piattaforme qua presenti</p><br>
+	                <div id="contenitori">
+		                <div class="contact">
+			                <a href="https://www.instagram.com/orlando_lepuri" target="_blank">
+				                <img src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" alt="Instagram">
+				                <span id="text">Instagram</span>
+			                </a>
+		                </div>
+		                <div class="contact">
+			                <a href="https://github.com/Olly06" target="_blank">
+				                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+				                <span id="text">GitHub</span>
+			                </a>
+		                </div>
+		                <div class="contact">
+			                <a href="https://www.facebook.com/profile.php?id=100086159949966" target="_blank">
+				                <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook">
+				                <span id="text">Facebook</span>
+			                </a>
+		                </div>
+		                <div class="contact">
+			                <a href="https://discord.com/users/945688239577124895" target="_blank">
+				                <img src="https://logos-world.net/wp-content/uploads/2020/12/Discord-Logo.png" alt="Discord">
+				                <span id="text">Discord</span>
+			                </a>
+		                </div>
+		                <div class="contact">
+			                <a href="mailto:lepuri08@gmail.com" target="_blank">
+				                <img src="https://th.bing.com/th/id/R.4d6db56fe0851ae7635b0dfd1cd86a72?rik=KvTVJFIPxj8oIQ&pid=ImgRaw&r=0" alt="Email">
+				                <span id="text">Email</span>
+			                </a>
+		                </div>
+		                <div class="contact">
+			                <a href="https://twitter.com/Olly006" target="_blank">
+				                <img src="https://abs.twimg.com/responsive-web/client-web/icon-ios.8ea219d5.png" alt="Twitter">
+                                <span id="text">Twitter</span>
+                            </a>
+                        </div>
+                        <div class="contact">
+			                <a href="https://t.me/Olly006" target="_blank">
+				                <img src="https://marcas-logos.net/wp-content/uploads/2019/12/Telegram-logo.png" alt="Telegram">
+                                <span id="text">Telegram</span>
+                            </a>
+                        </div>
+                        <div class="contact">
+			                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+				                <img src="https://hdclipartall.com/images/youtube-clipart-youtube-square-icons-1600x1600.png" alt="Youtube">
+                                <span id="text">Youtube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="container">
+                <div class="wrapper">
+                    <p class="footer-title">Informazioni su di me</p>
+                    <ul>
+                        <li>
+                          <a href="aboutMe.html" class="footer-link">About Me</a>
+                        </li>
+                         <li>
+                            <a href="contatti.html" class="footer-link">Contattami</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="wrapper">
+                    <p class="footer-title">Pagine utili</p>
+                    <ul>
+                        <li>
+                            <a href="computer.html" class="footer-link">Informatica</a>
+                        </li>
+                        <li>
+                            <a href="videogiochi.html" class="footer-link">Videogiochi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p id="crediti">
+                <b>Lepuri Orlando 2023</b>
+            </p>
+
+        </footer>
+
+        <script src="./assets/js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>
