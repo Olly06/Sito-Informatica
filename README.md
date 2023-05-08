@@ -10,6 +10,7 @@ Devo Menzionare i vari tool usati per creare il sito tra i quali:<br>
   <li><a href="https://coolors.co/" target="_blank"> Coolors</a>
   <li><a href="https://fonts.google.com/" target="_blank"> Google Fonts</a>
   <li><a href="https://github.com/ionic-team/ionicons/" target="_blank"> Ionicons</a><br>
+  <li><a href="https://www.flaticon.com//" target="_blank"> Flaticon</a><br>
 </ul>
 E anche i vari creator che mi hanno aiutato a imparare i linguaggi di programmazione e come settare Github:<br>
 <ul>
